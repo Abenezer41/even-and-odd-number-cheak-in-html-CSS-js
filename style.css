@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(111, 117, 104);
+}
+
+
+.container{
+    background-color: rgb(79, 55, 55);
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    border-radius: 13px;
+}
+
+.container h2{
+    padding: 16px;
+    text-align: center;
+}
+
+.container p{
+    background-color: gray;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.container input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10%;
+    border: none;
+    border-radius: 13px;
+}
+
+.container .btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btns button{
+    border: none;
+    padding: 12px 25px;
+    border-radius: 13px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btns button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.6s;
+    cursor: pointer;
+}
